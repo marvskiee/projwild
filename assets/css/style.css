@@ -1,0 +1,471 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --black:#000;
+    --cblack: #0b0b0b;
+    --lightgray: #f1f1f1;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: segoe ui;
+}
+h1,h2,h3,h4{
+    font-family: mont;
+}
+@font-face {
+    font-family: mont;
+    src: url(../font/mont.otf);
+}
+.nav{
+    grid-area: nav;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: 5em;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index:2;
+}
+.nav .logo{
+    display: flex;
+    align-items: center;
+}
+.nav .logo span{
+    font-size: 11pt;
+}
+.nav .logo p{
+    font-family: mont;
+}
+.nav img{
+    height: 3em;
+    width: 3em;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+.menu li{
+    font-weight: 500;
+    font-size: 13pt;
+    display: inline-flex;
+    padding: 1em;
+}
+#menu-toggle {
+    display: none;
+    padding: .5em;
+}
+#menu-toggle > div{
+    height: .13em;
+    border-radius: 1em;
+    width: 1.4em;
+    background-color: black;
+}
+#menu-toggle > div:nth-child(2){
+    margin: .25em 0;
+}
+
+/* END OF NAV  */
+.hero{
+    height: calc(50em - 12em);
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+.hero-image{
+    grid-area: hero2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-image img:nth-child(1){
+    height: 11.5em;
+}
+.hero-image img:nth-child(2){
+    position: absolute;
+    height: 10em;
+    top: 1.4em;
+}
+#d-home{
+    grid-area: hero1;
+    padding: 2em;
+    height: 33em;
+}
+#d-home p{
+    margin-bottom: .5em;
+    font-family: mont;
+    text-align: center;
+    font-size: 25pt;
+}
+#p-overview,
+#btn-proceed,
+.citations-card > button{
+    font-size: 13pt;
+    letter-spacing: .1em;
+    font-family: mont;
+    color: white;
+    border:none;
+    border-radius: 3em;
+    padding: .8em 2em;
+    background: linear-gradient(135deg, #1955AA, #2D6FF4);
+}
+
+/* END OF HERO  */
+
+.header{
+    font-family: mont;
+    font-size: 20pt;
+    margin: .5em;
+}
+#d-overview{
+    grid-area: overview2;
+    margin: 1em;
+    background-color: var(--lightgray);
+    padding: 1em;
+    border-radius: 2em;
+    /* margin-bottom: 10em; */
+}
+#d-overview p{
+    margin: 1em;
+    /* text-align: center; */
+    line-height:2em;
+}
+#d-overview > div > button#btn-proceed{
+    background: #fff;
+    border-radius: 3em;
+    border: 2px solid var(--black);
+    color: var(--black);
+    margin: .5em;
+}
+.overview-image{
+    grid-area: overview1;
+}
+.overview-image,
+.aboutus-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overview-image img,
+.aboutus-image img{
+    height: 15em;
+
+}
+
+/* END OF OVERVIEW  */
+#d-career{
+    grid-area: career;
+}
+#d-career,
+#d-article,
+#d-citation{
+    margin: 1em;
+    /* background-color: var(--lightgray); */
+    padding: 1em;
+    border-radius: 1em;
+    /* margin-bottom: 10em; */
+}
+
+#d-career .header,
+#d-article .header,
+#citation .header,
+#d-aboutus .header,
+#footer .header{
+    text-align:center;
+}
+.carousel{
+    /* width: calc(100vw - 4em); */
+    overflow-x: hidden;
+}
+.carousel-images ul{
+    padding: 0;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    list-style-type: none;
+}
+.carousel-images > div{
+    position: relative;
+    top: 0;
+    display: flex;
+    left: 0;
+    transition: left .5s;
+}
+.carousel-images > div{
+    background-color: red;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+.carousel-images img{
+    margin-right: .5em;
+    /* flex: 0 0 10em; */
+    /* height: 15em; */
+    width: calc(100% - 1em);
+    object-fit: cover;
+    border-radius: 1em;
+}
+.carousel-content h3{
+    margin: 1em 0;
+}
+.carousel-content{
+    /* margin: 1em; */
+    line-height: 2em;
+}
+.carousel-list{
+    display:flex;
+    justify-content: center;
+    margin: 1em;
+}
+.carousel-list > div{
+    background-color: #d3d3d3;
+    width: .6em;
+    height: .5em;
+    margin: 0em .4em;
+    border-radius: 1em;
+}
+.carousel-list > div.active{
+    background-color: #2D6FF4;
+}
+
+/* END OF CAREERS  */
+#d-article{
+    grid-area: article1;
+    border-radius: 1em;
+    background-color: #e0ecfc;
+}
+#d-article ul{
+    list-style-type: none;
+    padding: 0;
+}
+#d-article ul li{
+    border-radius: 1em;
+    line-height: 2em;
+    padding: .5em;
+    cursor: pointer;
+}
+#d-article ul li p{
+    padding: 1em;
+}
+
+/* END OF ARTICLES  */
+.citations-card{
+    margin-bottom: 1em;
+    word-break: break-word;
+    line-height: 2em;
+    background-color: var(--lightgray);
+    border-radius: 1em;
+    padding: 1em 1.5em 2em 1.5em;
+    position: relative;
+}
+.citations-card > div > p{
+    font-family: mont;
+    font-size: 13pt;
+    margin: .5em 0;
+}
+.citations-card > div > div{
+    /* max-height: 10em; */
+    /* white-space:nowrap; */
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+}
+.citation-image{
+    grid-area: citation1;
+}
+#d-citation{
+    grid-area: citation2;
+    
+}
+
+/* END OF CITATIONS  */
+#d-aboutus{
+    min-height: 30em;
+    margin: 1em;
+    grid-area: aboutus1;
+}
+.aboutus-image{
+    grid-area: aboutus2;
+}
+#d-aboutus div{
+    padding: 1em;
+    /* margin: 1em; */
+    line-height: 2em;
+}
+
+/* END OF ABOUTUS  */
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8,auto);
+    /* grid-template-rows: auto repeat(6,35em) auto; */
+    grid-template-areas: 
+        "nav nav"
+        "hero1 hero2"
+        "overview1 overview2"
+        "career career"
+        "article1 article2"
+        "citation2 citation2"
+        "aboutus1 contact"
+        "footer footer";
+        
+}
+/* END OF CONTACT US  */
+#contactus{
+    grid-area: contact;
+    margin: 1em;
+}
+#contactus textarea{
+    width: 100%;
+    border-radius: 1em;
+    padding: 1em;
+}
+#contactus button{
+    margin-top: 1em;
+    border: none;
+    padding: 1.5em 3em;
+    border-radius: 5em;
+}
+
+#footer{
+    grid-area: footer;
+    background-color: #2D6FF4;
+    padding: .5em;
+}
+#footer > div{
+    padding: 2em 0;
+}
+#footer img{
+    height: 1.5em;
+    margin-right: .5em;
+}
+#footer h2{
+    padding: 1em;
+}
+
+/* END OF FOOTER  */
+#menu-container{
+    z-index: 4;
+    display: none;
+    position: fixed;
+    height: 100%;
+    top: 5em;
+    width: 100%;
+    background-color: var(--lightgray);
+}
+#menu-container ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+#menu-container li.active{
+    background-color: #2D6FF4;
+    color: white;
+}
+#menu-container li{
+    padding: 2em;
+    font-family: mont;
+    text-align: center;
+    width: 100%;
+}
+#article-content{
+    grid-area: article2;
+    max-height: 35em;
+    overflow-y: auto;
+}
+
+#article-content p{
+    min-height: 15em;
+    line-height: 2em;
+}
+#article-content > div:nth-child(1){
+    padding: 1.5em;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+#article-content > div:nth-child(2){
+    padding: 1.5em;
+}
+#article-content img{
+    height: 2em;
+    margin: .5em;
+}
+#article-content ol{
+    margin: 1em 0;
+    padding: 1em;
+    list-style-type: none;
+}
+#article-content li{
+    line-height: 2em;
+}
+#article-content b{
+    margin: 1em 0;
+    display: block;
+}
+
+
+/* RESPONSIVE  */
+@media only screen and (max-width: 768px) {
+    .hero-image{
+        margin-top: 5em;
+    }
+    #d-home{
+        height: initial;
+        margin-bottom: 10em;
+    }
+    #menu-toggle{
+        display: block;
+    }
+    .menu,
+    .overview-image,
+    .aboutus-image{
+        display: none;
+    }
+    #container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav"
+        "hero2"
+        "hero1"
+        "overview2"
+        "career"
+        "article1"
+        "citation2"
+        "aboutus1"
+        "contact"
+        "footer";
+    }
+    #article-content{
+        z-index: 2;
+        position: fixed;
+        display: none;
+        inset: 0;
+        max-height: initial;
+        height: 100%;
+        /* padding: 1.5em; */
+        overflow-y: auto;
+        width: 100%;
+        background-color: white;
+        min-height: 15em;
+        /* margin-bottom: 3em; */
+    }
+
+    /* END OF NAV  */
+}
+#d-home,
+.hero-image > div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

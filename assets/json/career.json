@@ -1,0 +1,94 @@
+[
+	{
+		"name":"Wildlife Manager",
+		"image":"wildlife-manager.jpg",
+		"description":"Maintains or manipulates wildlife populations, habitats, or human users to produce benefits for wildlife and the general public. Benefits sought may be ecological, economic, social, recreational, or scientific. A wildlife manager uses wildlife science to formulate and apply scientifically sound solutions to wildlife and habitat management problems.",
+		"linkImg":"https://www.uwa.edu.au/study/careers/wildlife-manager"
+	},
+
+	{
+		"name":"Wildlife Biologist",
+		"image":"wildlife-biologist.jpg",
+		"description":"Gathers, analyzes, and interprets data on wildlife and habitats, including behavior, disease, ecology, genetics, nutrition, population dynamics, physiology, land-use changes, and pollution to conserve wildlife species and improve habitat conditions. A wildlife biologist uses scientific principles to research wildlife and habitats to increase our knowledge base.",
+		"linkImg":"https://www.usgs.gov/media/images/werc-wildlife-biologist-holding-sea-otter-pup"
+	},
+
+	
+	{
+		"name":"Wildlife Educator",
+		"image":"wildlife-educator.jpg",
+		"description":"Teaches high school and university students about wildlife science and conservation including wildlife biology, ecology, physiology, disease, toxicology, taxonomy, economics, research and management techniques, and conservation policy and law.",
+		"linkImg":"https://wlos.com/news/never-stop-learning/wildlife-educator-teaches-kids-to-care-for-each-other-animals-and-the-planet"
+	},	
+
+	{
+		"name":"Wildlife Law Enforcement Officer",
+		"image":"wildlife-enforcer.jpg",
+		"description":"Enforces wildlife laws and regulations to maintain wildlife populations at desired levels. Wildlife law enforcement officers often perform surveys of wildlife populations, are involved in trapping and banding programs, implement wildlife population controls, respond to complaints of nuisance wildlife, and educate the public about wildlife issues.",
+		"linkImg":"https://cdfgnews.wordpress.com/2018/07/24/interested-in-a-career-as-a-wildlife-officer-nows-the-time-to-apply/"
+	},
+
+	{
+		"name":"Wildlife Technician",
+		"image":"wildlife-technician.jpg",
+		"description":"Collects data on wildlife and habitats under the supervision of a Wildlife Manager or Wildlife Biologists.",
+		"linkImg":"https://www.researchgate.net/figure/Wildlife-technician-setting-up-a-camera-trap_fig2_265966616"
+	},
+
+	{
+		"name":"Wildlife Conservationist",
+		"image":"wildlife-conservationist.jpg",
+		"description":"Wildlife conservationists are critical thinkers who are passionate about preserving wildlife and their habitats.",
+		"linkImg":"https://www.discovery.com/dnews/honoring-the-legacy-of-steve-irwin-pictures"
+	},
+
+	{
+		"name":"Wildlife Inspector and Forensics Specialist",
+		"image":"wildlife-inspector.jpg",
+		"description":"Intercepts smuggled, illegal shipments of live wild animals for the pet trade and wild animal parts for trophy or medicinal purposes. Wildlife inspectors are stationed at international airports, ocean ports, and border crossings.",
+		"linkImg":"https://cen.acs.org/articles/94/i21/CEN-profiles-US-Fish-Wildlife.html"
+	},
+
+	{
+		"name":"Wildlife Inspector",
+		"image":"wildlife-admin.jpg",
+		"description":"Works with many stakeholders and budgets to provide assistance in promoting sound resource management programs designed to effectively manage wildlife and habitats.",
+		"linkImg":"https://texasaquaticscience.org/texas-water-aquatic-science/"
+	},
+
+	{
+		"name":"Wildlife Policy Analyst",
+		"image":"wildlife-policy.jpg",
+		"description":"Applies wildlife management theories and practices to laws and regulations governing wildlife and habitats. Wildlife policy analysts often work for governments, legislative bodies, nonprofit organizations, or industry groups.",
+		"linkImg":"https://twitter.com/eiaenvironment/status/1165872458660028416"
+	},
+
+	{
+		"name":"Wildlife Consultant",
+		"image":"wildlife-consultant.jpg",
+		"description":"Evaluates ecosystems to determine environmental impacts from proposed actions. Following standards created by the National Environmental Policy Act, consultants provide reports to businesses, industries, and governments to ensure quality environments",
+		"linkImg":"https://www.uwa.edu.au/study/careers/wildlife-consultant"
+	},
+
+	{
+		"name":"GIS Specialist",
+		"image":"wildlife-gis.jpg",
+		"description":"Works with Geographic Information Systems and other technologies to interpret data and make management and policy recommendations concerning wildlife and their habitats",
+		"linkImg":"https://monde-geospatial.com/top-6-best-gis-jobs-a-gis-graduate-can/"
+	},
+
+	{
+		"name":"Communication and Public Relations",
+		"image":"wildlife-publicrelations.jpg",
+		"description":"Interprets wildlife research and conservation programs to present to the general public.",
+		"linkImg":"https://www.fws.gov/cno/newsroom/highlights/2018/ocean_connectors/images/OceanConnectors-boat%20.jpg"
+	},
+
+	{
+		"name":"Wildlife Photographer",
+		"image":"wildlife-photographer.jpg",
+		"description":"is a genre of photography concerned with documenting various forms of wildlife in their natural habitat. As well as requiring photography skills, wildlife photographers may need field craft skills.",
+		"linkImg":"https://imgur.com/gallery/NCW9prX"
+	}
+
+]
