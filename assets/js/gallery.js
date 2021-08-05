@@ -80,7 +80,7 @@ Gallery.prototype.fetchData = function(){
     self.content.children[1].innerHTML = self.data[0]['description'];
     self.list.children[0].classList.add('active');
   }
-  xhttp.open('GET','assets/json/career.json');
+  xhttp.open('GET','https://wildpath.000webhostapp.com/assets/json/career.json');
   xhttp.send();
 }
 Gallery.prototype.clearList = function(){
