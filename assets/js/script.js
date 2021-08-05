@@ -56,6 +56,7 @@ Article.prototype.init = function(){
         
     }
     this.xhttp.open('GET','https://api.jsonbin.io/b/610b75c4e1b0604017a6e769');
+    req.setRequestHeader("X-Master-Key", "$2b$10$pfLuiOvWsxJMArZPsriKceyVtl8Q.OzqtWq8u5Ii/7bw08QblCFHC");
     this.xhttp.send();
 }
 Article.prototype.open = function(data){
