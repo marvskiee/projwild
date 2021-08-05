@@ -65,7 +65,7 @@ Article.prototype.open = function(data){
     this.content.innerHTML = 
     `<div>
         <h3>${data.name}</h3>
-        <img id="btn-article-close" src="../assets/images/icon/x.svg" alt =""/>
+        <img id="btn-article-close" src="assets/images/icon/x.svg" alt =""/>
     </div>
     <div id="article-author">
         By ${data.author}
