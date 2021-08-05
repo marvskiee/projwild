@@ -55,7 +55,7 @@ Article.prototype.init = function(){
         });
         
     }
-    this.xhttp.open('GET','assets/json/articles.json');
+    this.xhttp.open('GET','https://wildpath.000webhostapp.com/assets/json/articles.json');
     this.xhttp.send();
 }
 Article.prototype.open = function(data){
