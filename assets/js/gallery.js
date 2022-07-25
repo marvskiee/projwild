@@ -80,7 +80,7 @@ Gallery.prototype.fetchData = function(){
     self.content.children[1].innerHTML = self.data[0]['description'];
     self.list.children[0].classList.add('active');
   }
-  xhttp.open('GET','https://api.jsonbin.io/b/610b7c5be1b0604017a6e9f6');
+  xhttp.open('GET','https://api.jsonbin.io/v3/b/610b7c5be1b0604017a6e9f6');
   xhttp.send();
 }
 Gallery.prototype.clearList = function(){
