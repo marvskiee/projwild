@@ -42,7 +42,7 @@ Article.prototype.init = function(){
     let self = this;
     this.xhttp.onload = function(){
         let data = JSON.parse(this.responseText);
-        for(let d in data){
+        for(let d in data["record"]){
             self.list.innerHTML += `<li id="a-${d}">${data[d]['name']}</li>`;
             self.citation.innerHTML += `<p>${data[d]['source']}</p>`;
         }
