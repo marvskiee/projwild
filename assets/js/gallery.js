@@ -71,7 +71,7 @@ Gallery.prototype.fetchData = function(){
     let data = JSON.parse(this.responseText);
     self.data = data;
     // console.log(data);
-    for(let d in data){
+    for(let d in data["record"]){
       self.parent.children[0].innerHTML += `<img draggable="false" src="assets/images/${data[d]['image']}" alt="">`;
       self.list.innerHTML += `<div></div>`;
       linkimg.innerHTML += `<p>${data[d]['linkImg']}</p>`
