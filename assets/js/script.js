@@ -55,7 +55,7 @@ Article.prototype.init = function(){
         });
         
     }
-    this.xhttp.open('GET','https://api.jsonbin.io/b/610b7c16f098011544ab8a04',true);
+    this.xhttp.open('GET','https://api.jsonbin.io/v3/b/610b7c16f098011544ab8a04',true);
     this.xhttp.send();
 }
 Article.prototype.open = function(data){
